@@ -1,0 +1,51 @@
+@import url(./fonts.css);
+
+body{
+    background: linear-gradient(to right, rgb(253, 253, 253), rgb(190, 189, 189));
+}
+
+*{
+    font-family: 'Montserrat Light', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    color: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* SECTION NAVIGATION */
+
+.section-navigation .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-navigation .container .middle{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.section-navigation .container .middle p{
+    font-family: "Manrope-Bold", sans-serif;
+}
+
+.section-navigation .container .icons{
+    width: 35%;
+}
+
+.section-navigation .container .icons img{
+    cursor: pointer;
+}
+
