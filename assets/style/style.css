@@ -1,7 +1,7 @@
 @import url(./fonts.css);
 
 body{
-    background: linear-gradient(to right, rgb(253, 253, 253), rgb(216, 215, 215));
+    background: linear-gradient(to right, rgb(253, 253, 253), rgb(239, 237, 237));
     overflow-x: hidden;
 }
 
@@ -26,6 +26,10 @@ a{
 
 /* SECTION NAVIGATION */
 
+.section-navigation{
+    margin-top: 30px;
+}
+
 .section-navigation .container{
     display: flex;
     justify-content: space-between;
@@ -43,11 +47,14 @@ a{
 }
 
 .section-navigation .container .icons{
-    width: 35%;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-navigation .container .icons img{
     cursor: pointer;
+    width: 40px;
 }
 
 /* SECTION TITLE */
@@ -190,4 +197,78 @@ a{
 
 .section-proba .container .text .knopka button{
     font-size: 15px;
+}
+
+/* SECTION BUY */
+
+.section-buy{
+    margin-bottom: 100px;
+}
+
+.section-buy .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-buy .container .text{
+    margin-left: 40px;
+}
+
+.section-buy .container .text .title-text h2{
+    font-size: 40px;
+}
+
+.section-buy .container .text .title-text span{
+    font-size: 15px;
+}
+
+.section-buy .container .text .title-text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-buy .container .text .elements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.section-buy .container .text .elements .element{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 45%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-buy .container .text .elements .element p{
+    font-family: 'Manrope-Bold';
+}
+
+.section-buy .container .text .elements .element .star, .section-buy .container .text .elements .element .week, .section-buy .container .text .elements .element .tren{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-buy .container .text .elements .element .star p, .section-buy .container .text .elements .element .week p, .section-buy .container .text .elements .element .tren p{
+    margin-left: 5px;
+}
+
+.section-buy .container .text .sell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.section-buy .container .text .sell .knopka{
+    margin-top: 0px;
+}
+
+.section-buy .container .text .sell h2{
+    font-size: 50px;
 }
