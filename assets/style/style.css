@@ -1,7 +1,7 @@
 @import url(./fonts.css);
 
 body{
-    background: linear-gradient(to right, rgb(253, 253, 253), rgb(239, 237, 237));
+    background: linear-gradient(to right, #f0f3f5, #e6ebf0);
     overflow-x: hidden;
 }
 
@@ -352,4 +352,43 @@ a{
     background-color: #3585fd;
     color: white;
     box-shadow: #c4cdda 3px 6px 15px 0;
+}
+
+/* SECTION ABOUT */
+
+.section-about{
+    background-color: white;
+    margin-bottom: 100px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.section-about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about .container .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.section-about .container .text h2{
+    font-family: 'Manrope-SemiBold';
+    font-size: 40px;
+}
+
+.section-about .container .text p{
+    font-family: 'Manrope-Regular';
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.section-about .container .text .knopka{
+    margin-top: 100px;
 }
