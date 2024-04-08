@@ -24,6 +24,10 @@ a{
     margin: 0 auto;
 }
 
+p{
+    font-family: 'Manrope-Regular';
+}
+
 /* SECTION NAVIGATION */
 
 .section-navigation{
@@ -391,4 +395,52 @@ a{
 
 .section-about .container .text .knopka{
     margin-top: 100px;
+}
+
+/* SECTION KAK */
+
+.section-kak{
+    margin-bottom: 100px;
+}
+
+.section-kak .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-kak .container h2{
+    margin-bottom: 100px;
+    font-family: 'Manrope-SemiBold';
+    font-size: 40px;
+}
+
+.section-kak .container .cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-kak .container .cards .card{
+    width: 20%;
+}
+
+.section-kak .container .cards .card .nomer{
+    background-color: rgb(53, 134, 255);
+    width: 25%;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-kak .container .cards .card .nomer p{
+    font-family: 'Manrope-Bold';
+    color: white;
+}
+
+.section-kak .container .cards .card .p-card{
+    font-size: 14px;
+    margin-top: 10px;
 }
